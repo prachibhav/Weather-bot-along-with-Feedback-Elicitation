@@ -1,0 +1,30 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:778265510060:function:ask-template-weather-bot-default-default-1659426391073",
+                "lastModified": "2022-08-04T04:28:23.000+0000",
+                "revisionId": "fd16e98b-0e9e-45ad-ba5f-66eb7f0c0adf"
+              },
+              "iamRole": "arn:aws:iam::778265510060:role/ask-lambda-template-weather-bot-1659426389195"
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.ced5ca81-9e3b-45c9-bade-6d889c11bfd1",
+      "skillMetadata": {
+        "lastDeployHash": "U9QVrvi2ZLcby1XgKtGEkovgLXM="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "hPTvnFUdZQ012bDCWeklTc8UZXo="
+        }
+      }
+    }
+  }
+}
