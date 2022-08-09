@@ -27,11 +27,9 @@ const GetWeatherApiHandler = {
         const weather = weatherClient.getWeather(cityName, date);
 
         const response = {
-            apiResponse: {
                 cityName: cityName,
                 lowTemp: weather.lowTemperature,
                 highTemp: weather.highTemperature
-            }
         };
         return handlerInput.responseBuilder
         .withApiResponse(response)

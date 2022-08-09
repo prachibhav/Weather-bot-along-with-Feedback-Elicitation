@@ -1,7 +1,9 @@
 namespace example.weatherbot
 //namespace com.weatherbot
 import com.amazon.alexa.skill.components.feedback_elicitation.*
+//import com.alexa.reusable.component.inSkillPurchase.purchase.InSkillPurchaseBuySpecificProductRD
 
+import com.alexa.reusable.component.inSkillPurchase.*
 import com.amazon.alexa.ask.conversations.*
 import com.amazon.ask.types.builtins.AMAZON.*
 import com.amazon.alexa.schema.Nothing

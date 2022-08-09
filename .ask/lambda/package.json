@@ -10,6 +10,7 @@
     "license": "ISC",
     "dependencies": {
         "@alexa-skill-components/feedback-elicitation": "^0.0.1",
+        "@alexa-components/in-skill-purchase-reusable-component" : "file:../amzn-in-skill-purchase-reusable-component-1.0.0.tgz",
         "ask-sdk-core": "^2.6.0",
         "ask-sdk-model": "^1.38.3"
     },
